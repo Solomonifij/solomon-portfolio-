@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solomon Atalokhia — UI/UX Designer</title>
+    <meta
+      name="description"
+      content="Solomon Atalokhia is a UI/UX designer crafting inclusive, minimal, future-oriented digital experiences."
+    />
+
+    <!--
+============================================================
+HOW TO EDIT THIS FILE
+============================================================
+
+Every placeholder is marked with:
+EDIT: description of what to change
+
+Search this file for "EDIT:" in VS Code (Ctrl/Cmd + F).
+
+============================================================
+-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- ============ NAV ============ -->
+      <header class="nav" id="nav">
+        <div class="nav-inner">
+          <a href="#hero" class="nav-logo">Solomon<span class="dot">.</span></a>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </nav>
+
+         <div class="nav-actions">
+  <div class="resume-group">
+    <!-- EDIT: replace "assets/solomon-product-design-cv.pdf" with your actual resume filename if different -->
+    <a href="assets/solomon-product-design-cv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Resume</a>
+    <a href="assets/solomon-product-design-cv.pdf" download class="btn-icon" aria-label="Download resume">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+    </a>
+  </div>
+  <a href="#contact" class="btn btn-primary btn-sm">Book a call</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</div> 
+      </header>
+
+      <main>
+        <!-- ============ HERO ============ -->
+        <section id="hero" class="hero">
+          <div class="hero-frame">
+            <span class="corner corner-tl"></span>
+            <span class="corner corner-tr"></span>
+            <span class="corner corner-bl"></span>
+            <span class="corner corner-br"></span>
+
+            <span class="eyebrow-badge reveal">
+              <span class="badge-dot"></span>
+              Available for freelance &amp; contract work
+            </span>
+            <!-- EDIT: change to "Booked until [date]" if not currently open to work -->
+
+            <h1 class="hero-title reveal">
+              I'm
+              <span class="hero-avatar">
+                <img src="assets/images/profile.jpg" alt="Solomon Ifijeh" />
+              </span>
+              Solomon — Product designer crafting intuitive
+              <span class="hero-highlight"
+                >"Fintech, Healthcare & Saas experineces"</span
+              >
+              into interfaces that convert.
+            </h1>
+
+            <p class="hero-tagline reveal">
+              UI/UX designer based in Lagos, Nigeria, crafting inclusive,
+              minimal, and future-oriented digital experiences for web and
+              mobile.
+            </p>
+
+            <div class="hero-actions reveal">
+              <a href="#contact" class="btn btn-primary"
+                >Book a discovery call</a
+              >
+              <a href="#work" class="btn btn-outline">View Work</a>
+            </div>
+
+            <div class="hero-tools reveal">
+              <span class="mono-label">Designs with</span>
+              <div class="tools-strip">
+                <span class="tool-logo">Figma</span>
+                <span class="tool-logo">Adobe XD</span>
+                <span class="tool-logo">Sketch</span>
+                <span class="tool-logo">Framer</span>
+                <span class="tool-logo">Notion</span>
+              </div>
+              <!-- EDIT: swap these for the tools you actually use -->
+            </div>
+          </div>
+
+          <div class="hero-tag hero-tag-right">
+            <span class="mono-label">role</span>
+            <span>Product &amp; Interface Design</span>
+          </div>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section id="about" class="about">
+          <div class="section-head reveal">
+            <span class="mono-label">01 / About</span>
+            <h2>A little about my process</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-portrait reveal">
+              <!-- EDIT: replace this placeholder with <img src="assets/portrait.jpg" alt="Solomon Atalokhia" /> -->
+              <div class="about-portrait reveal">
+                <img src="assets/images/profile.jpg" alt="Solomon Ifijeh" />
+              </div>
+            </div>
+
+            <div class="about-copy reveal">
+              <p class="about-lead">
+                I'm a Product Designer with experience designing fintech,
+                healthcare, edtech, and Web3 products. I combine user research,
+                business goals, and visual design to create intuitive digital
+                experiences that increase engagement, simplify complex
+                workflows, and deliver measurable results.
+              </p>
+              <!-- EDIT: expand this with 2-3 more sentences about your background, how you got into design, or what drives you -->
+
+              <div class="stat-grid">
+                <div class="stat-card">
+                  <span class="stat-number">5+</span>
+                  <span class="stat-label">Years designing</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">20+</span>
+                  <span class="stat-label">Projects shipped</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">15+</span>
+                  <span class="stat-label">Happy clients</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">98%</span>
+                  <span class="stat-label">Client satisfaction</span>
+                </div>
+                <!-- EDIT: swap these placeholder numbers for your real stats -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ WORK ============ -->
+        <section id="work" class="work">
+          <div class="section-head reveal">
+            <span class="mono-label">02 / Selected Work</span>
+            <h2>Projects</h2>
+            <p class="section-sub">
+              Each project opens its full case study on my Behance profile.
+            </p>
+          </div>
+
+          <div class="work-grid">
+            <!-- PROJECT CARD 1 -->
+            <!-- EDIT: replace href="#" with the direct Behance URL for this project -->
+            <a
+              href="https://www.behance.net/gallery/222936667/Sawapay-%28Fintech-Mobile-banking-app%29"
+              class="project-card reveal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="assets/images/project-01.jpg"
+                  alt="Project Title One"
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                  "
+                />
+              </div>
+              <div class="project-info">
+                <h3>Sawapay (Fintech Mobile banking app)</h3>
+                <!-- EDIT: real project name -->
+                <p>
+                  Sawapay is an online fintech Application design to provide
+                  users with seamless, and secure financial management
+                  experience.
+                </p>
+                <!-- EDIT: real one-liner -->
+                <div class="project-tags">
+                  <span class="tag">Role: Product Designer</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+              <span class="project-cta mono-label">View case study →</span>
+            </a>
+
+            <!-- PROJECT CARD 2 -->
+            <a
+              href="https://www.behance.net/gallery/223429197/CidraNet-Token"
+              class="project-card reveal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="assets/images/project-02.jpg"
+                  alt="Project Title One"
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                  "
+                />
+              </div>
+              <div class="project-info">
+                <h3>CidraNet Token</h3>
+                <p>
+                  CidraNet Token is a Web3 token management app designed to
+                  simplify how users interact with decentralized digital assets.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Role: UX Designer</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+              <span class="project-cta mono-label">View case study →</span>
+            </a>
+
+            <!-- PROJECT CARD 3 -->
+            <a
+              href="https://www.behance.net/gallery/239972005/Skana-App"
+              class="project-card reveal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="assets/images/project-03.jpg"
+                  alt="Project Title One"
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                  "
+                />
+              </div>
+              <div class="project-info">
+                <h3>Skana App</h3>
+                <p>
+                  Modern payment platform that allows users and merchants to
+                  make and receive payments instantly, using QR codes, store
+                  names, or @usernames without the need for traditional bank
+                  details
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Role: UI Designer</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+              <span class="project-cta mono-label">View case study →</span>
+            </a>
+
+            <!-- PROJECT CARD 4 -->
+            <a
+              href="https://www.behance.net/gallery/225854109/Ajocircle-Use-case-study"
+              class="project-card reveal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="assets/images/project-04.jpg"
+                  alt="Project Title One"
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                  "
+                />
+              </div>
+              <div class="project-info">
+                <h3>Ajocircle</h3>
+                <p>
+                  Ajocircle is a group saving app, that allows friends, Family,
+                  and colleagues to save a fixed amount of money together each
+                  month
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Role: Product Designer</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+              <span class="project-cta mono-label">View case study →</span>
+            </a>
+
+            <!-- Duplicate the block above and edit for more projects. -->
+          </div>
+
+          <div class="work-footer reveal">
+            <!-- EDIT: replace href="#" with your main Behance profile URL -->
+            <a
+              href="https://www.behance.net/solomonsele/projects"
+              class="btn btn-outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See all projects on Behance
+            </a>
+          </div>
+        </section>
+
+        <!-- ============ SKILLS ============ -->
+        <section id="skills" class="skills">
+          <div class="section-head reveal">
+            <span class="mono-label">03 / Skills</span>
+            <h2>Tools &amp; craft</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group reveal">
+              <span class="mono-label">Design</span>
+              <ul class="chip-list">
+                <li class="chip">UI Design</li>
+                <li class="chip">UX Research</li>
+                <li class="chip">Wireframing</li>
+                <li class="chip">Prototyping</li>
+                <li class="chip">Design Systems</li>
+                <li class="chip">Interaction Design</li>
+              </ul>
+              <!-- EDIT: adjust this list to your real skills -->
+            </div>
+
+            <div class="skill-group reveal">
+              <span class="mono-label">Tools</span>
+              <ul class="chip-list">
+                <li class="chip">Figma</li>
+                <li class="chip">Adobe XD</li>
+                <li class="chip">Sketch</li>
+                <li class="chip">Photoshop</li>
+                <li class="chip">Illustrator</li>
+                <li class="chip">Notion</li>
+              </ul>
+              <!-- EDIT: adjust this list to your real tools -->
+            </div>
+
+            <div class="skill-group reveal">
+              <span class="mono-label">Process</span>
+              <ul class="chip-list">
+                <li class="chip">User Interviews</li>
+                <li class="chip">Usability Testing</li>
+                <li class="chip">A/B Testing</li>
+                <li class="chip">Accessibility (WCAG)</li>
+                <li class="chip">Design Handoff</li>
+              </ul>
+              <!-- EDIT: adjust this list to your real process skills -->
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ TESTIMONIALS ============ -->
+        <section id="testimonials" class="testimonials">
+          <div class="section-head reveal">
+            <span class="mono-label">04 / Testimonials</span>
+            <h2>What people say</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <div class="testimonial-card reveal">
+              <p class="quote">
+                "Working with Solomon was effortless. He communicated clearly,
+                welcomed feedback, and consistently delivered polished designs
+                that exceeded our expectations"
+              </p>
+              <div class="testimonial-author">
+                <span class="author-name">Vincent Ikechukwu</span>
+                <span class="author-role">Founder, Viviane Health</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card reveal">
+              <p class="quote">
+                "Solomon has an excellent eye for design and usability. He
+                doesn't just create beautiful interfaces—he solves real user
+                problems through thoughtful design."
+              </p>
+              <div class="testimonial-author">
+                <span class="author-name">Richy Okogbe</span>
+                <span class="author-role">Founder, RejigNaija</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card reveal">
+              <p class="quote">
+                "Solomon transformed our ideas into a clean, intuitive
+                interface. His attention to detail and user-first approach made
+                the entire design process smooth and enjoyable."
+              </p>
+              <div class="testimonial-author">
+                <span class="author-name">Toyosi</span>
+                <span class="author-role">Lead Designer, UI/UX Africa</span>
+              </div>
+            </div>
+            <!-- EDIT: replace each quote + name + role. Duplicate the block for more. -->
+          </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section id="contact" class="contact">
+          <div class="contact-frame">
+            <span class="corner corner-tl"></span>
+            <span class="corner corner-tr"></span>
+            <span class="corner corner-bl"></span>
+            <span class="corner corner-br"></span>
+
+            <span class="mono-label reveal">05 / Contact</span>
+            <h2 class="contact-title reveal">
+              Let's build something<br />worth using.
+            </h2>
+
+            <a
+              href="mailto:aitalsolomon983@gmail.com"
+              class="contact-email reveal"
+            >
+              aitalsolomon983@gmail.com
+            </a>
+
+            <div class="contact-links reveal">
+              <a
+                href="https://www.linkedin.com/in/solomon-ifijeh"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+              <!-- EDIT: replace href="#" with your Behance profile URL -->
+              <a href="https://www.behance.net/solomonsele/projects" target="_blank" rel="noopener noreferrer">Behance</a>
+              <!-- EDIT: add more socials if you have them, e.g. Instagram, X/Twitter -->
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          © <span id="year"></span> Solomon Atalokhia. Designed &amp; built with
+          intent.
+        </p>
+      </footer>
+    </div>
+    <!-- /.page-shell -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
